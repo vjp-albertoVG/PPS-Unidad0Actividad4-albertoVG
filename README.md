@@ -187,3 +187,69 @@ comprobamos que se han modificado los cambios
 ![](imagenes/Imagen31.png)
  
 
+## Git log
+1. Mira la página de (Git Book sobre los comandos git log)[https://git-scm.com/book/es/v2/Fundamentos-de-Git-Ver-el-Historial-de-Confirmaciones]
+2. Muestra los logs 
+
++ Para ver los log de todos los commit usamos git log
+ ![](imagenes/Imagen32.png)
+
+3. Muestra los logs de los últimos 3 commits
+
+ ![](imagenes/Imagen33.png)
+
+4. Muestra los logs utilizando el modificador ``--pretty`
+--pretty: Si quieres ver los logs en un formato más amigable que muestre solo los mensajes de commit, puedes usar --pretty con el formato "%h %s %cr" que muestra el hash corto del commit, el mensaje del commit y la fecha de cambio:
+![](imagenes/Imagen34.png)
+
+5. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
+Este comando te mostrará una lista de archivos modificados junto con los nombres de los archivos y el estado de los cambios.
+
+ ![](imagenes/Imagen35.png)
+
+6. Muestra los logs de las modificaciones realizadas en el último día
++ Esto te mostrará los commits que ocurrieron dentro del último día desde la fecha actual.
+ 
+![](imagenes/Imagen36.png)
+
+
+## Ramas
+
+1. Lista las ramas existentes.
++ Para listar las ramas existentes usamos git branch
+ 
+ ![](imagenes/Imagen37.png)
+
+2. Crea una nueva rama con nombre Vers1 a partir de la rama actual.
+
++ Para crear una nueva rama llamada Vers1 desde la rama actual y cambiar a esa nueva rama, utilizamos: git checkout -b Vers1
+![](imagenes/Imagen38.png)
+
+Este comando:
+   +  Crea una nueva rama llamada Vers1.
+   +  Te cambia automáticamente a la nueva rama Vers1
+
+
+3. Haz una modificación del index.html y guardas modificaciones.
++ Hacemos la modificación del index.html
+![](imagenes/Imagen39.png)
++ Y hacemos un git status para verificar el estado de los cambios
+
+![](imagenes/Imagen40.png)
++ Hacemos un git add y un commit para guardar los cambios
+
+![](imagenes/Imagen41.png) 
+
+
+4. Sube los cambios al respositorio remoto a la rama Vers1 `git push origin Vers1` (En este caso podemos ver cómo el index.html de la rama `m̀ain` y `Vers1` son diferentes.
++ Subimos los cambios a la rama remota Vers1 usando el siguiente comando:git push origin Vers1
+
+ ![](imagenes/Imagen42.png)
++ Comprobamos que se ha guardado en la rama nueva los cambios.
+
+![](imagenes/Imagen43.png)
+
+
+## Entrega
+
+Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com
