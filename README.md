@@ -116,3 +116,74 @@ Dentro de nuestro directorio de practica 4 nos creamos el archivo `touch index.h
 ![](imagenes/Imagen16.png)
 
 
+## Creación de nuestro servidor web y visualización de nuestro proyecto
+
+
+1. En un nueva pestaña de terminal y en el mismo directorio, ejecuta php -S 0:8080 para lanzar un servidor con la página html que has creado.
+
+![](imagenes/Imagen17.png)
+2. Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8080 de tu equipo: [](http://localhost:8080)
+
+![](imagenes/Imagen18.png)
+![](imagenes/Imagen19.png)
+
+
+## Seguimos Trabajando con Git
+
+1. Haz una copia del archivo local** index.html** con el nombre** index.html.save.** Modifica el fichero index.html para que cambie el texto mostrado en la página web.
+
+ ![](imagenes/Imagen20.png)
+
+2. Verifica estado del proyecto.
+
+ ![](imagenes/Imagen21.png)
+
++ Esto indica que index.html.save es un archivo nuevo no añadido al control de versiones.
+
+3. Comprueba las diferencias de los archivos que no han sido añadidos (``git diff``)
+
+![](imagenes/Imagen22.png)
++ Si index.html.save es idéntico a index.html, no verás diferencias. Si introduces cambios en index.html.save, este comando te mostrará los cambios.
+
+4. Refresca navegador para comprobar que ha cambiado el contenido de nuestra página web.
+ 
+![](imagenes/Imagen23.png)
+
+5.  Vuelve a la versión anterior del archivo index.html (git restore).
+ 
+![](imagenes/Imagen24.png)
+
+6. Vuelve a refrescar navegador para ver como vuelve a versión inicial.
+
+![](imagenes/Imagen25.png)
+
+7. Vamos a utiliza el comando ``git mv``. Elimina el archivo index.html y después de hacer un commit, mueve el archivo con index.html.save a index.html
+Eliminar index.html (aunque en realidad no es necesario eliminarlo antes de renombrarlo, Git lo maneja automáticamente cuando usamos git mv)
+
+
+ ![](imagenes/Imagen26.png)
+
+Renombra index.html.save a index.html con el comando git mv:
+
+ ![](imagenes/Imagen27.png)
+
+8. Mira el estado del proyecto y confirma todos los cambios.
+
+
+9. Para pull y push, haz un push y comprueba cómo han subido los archivos a github.com.
+
+![](imagenes/Imagen28.png)
+
+10.  Modifica el archivo index.php desde la página de github.com y haz un pull y comprueba cómo se ha modificado la página web en nuestro navegador.
+
+![](imagenes/Imagen29.png)
+
+hacemos un pull con los cambios realizados en github y los guardamos.
+
+![](imagenes/Imagen30.png)
+
+comprobamos que se han modificado los cambios
+
+![](imagenes/Imagen31.png)
+ 
+
