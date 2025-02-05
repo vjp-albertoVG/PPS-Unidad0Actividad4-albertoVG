@@ -18,7 +18,7 @@ color.interactive=auto
 color.diff=auto
 ~~~ 
 
-![](imagenes/Imagenl.png)
+![](imagenes/Imagen1.png)
 
 ## Creación de Proyecto y repositorio
 
