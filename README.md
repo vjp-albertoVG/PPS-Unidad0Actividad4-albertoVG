@@ -181,6 +181,7 @@ Renombra index.html.save a index.html con el comando git mv:
 hacemos un pull con los cambios realizados en github y los guardamos.
 
 ![](imagenes/Imagen30.png)
+![](imagenes/Imagen30..png)
 
 comprobamos que se han modificado los cambios
 
