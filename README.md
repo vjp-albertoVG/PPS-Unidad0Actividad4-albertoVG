@@ -246,9 +246,7 @@ Este comando:
 + Subimos los cambios a la rama remota Vers1 usando el siguiente comando:git push origin Vers1
 
  ![](imagenes/Imagen42.png)
-+ Comprobamos que se ha guardado en la rama nueva los cambios.
 
-![](imagenes/Imagen43.png)
 
 
 ## Entrega
