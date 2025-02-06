@@ -22,9 +22,9 @@ color.diff=auto
 
 ## Creación de Proyecto y repositorio
 
-Para ello crea una nueva carpeta en tu directorio de git de PPS, con el nombre de esta actividad ___PPSActividad4Unidad0-albertoVG___
+Para ello crea una nueva carpeta en tu directorio de git de PPS, con el nombre de esta actividad ___PPS-Unidad0Actividad4-albertoVG___
 
-Creo un nuevo repositorio público con nombre **PPSActividad4Unidad0-albertoVG** 
+Creo un nuevo repositorio público con nombre **PPS-Unidad0Actividad4-albertoVG** 
 
 Sigue las indicaciones de github para crear tu nuevo repositorio en linea de comandos, esto es:
 
@@ -33,7 +33,7 @@ Sigue las indicaciones de github para crear tu nuevo repositorio en linea de com
 Viene a ser como esto, pero cambiando el nombre de usuario y de repositorio:
 
 ~~~
-echo "# PPSActividad4Unidad0RaulAlbalatPerez-> README.md
+echo "# PPS-Unidad0Actividad4-albertoVG-> README.md
 git init
 git add README.md
 git commit -m "first commit"
