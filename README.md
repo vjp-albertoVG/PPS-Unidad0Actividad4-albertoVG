@@ -22,9 +22,9 @@ color.diff=auto
 
 ## Creación de Proyecto y repositorio
 
-Para ello crea una nueva carpeta en tu directorio de git de PPS, con el nombre de esta actividad ___PPSActividad4Unidad0aalbertoVG___
+Para ello crea una nueva carpeta en tu directorio de git de PPS, con el nombre de esta actividad ___PPSActividad4Unidad0-albertoVG___
 
-Creo un nuevo repositorio público con nombre **PPSActividad4Unidad0RaulAlbalatPerez-** 
+Creo un nuevo repositorio público con nombre **PPSActividad4Unidad0-albertoVG** 
 
 Sigue las indicaciones de github para crear tu nuevo repositorio en linea de comandos, esto es:
 
